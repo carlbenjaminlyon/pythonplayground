@@ -24,3 +24,9 @@ class NewClass(ParentClass):
 obj = NewClass(10, 20)
 obj.parentMethod()
 obj.newMethod()
+
+class Utilities():
+      def loop(self, args):
+          for arg in args:
+              return arg
+              continue
